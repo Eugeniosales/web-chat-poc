@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <title>AWS chat</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body { font: 13px Helvetica, Arial; }
+      form { background: #000; padding: 3px; position: fixed; bottom: 0; width: 100%; }
+      form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+      form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
+      #messages { list-style-type: none; margin: 0; padding: 0; }
+      #messages li { padding: 5px 10px; }
+      #messages li:nth-child(odd) { background: #eee; }
+    </style>
+  </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+  <body>
+    <div class="messages"></div>
+    <form>
+      <input id="msg" name="text" autocomplete="off" type="textarea" /><button>Send</button>
+    </form>
+    <script>
+        
+        //var socket = new WebSocket("wss://evre13jow7.execute-api.us-east-1.amazonaws.com/dev");
+        var socket = new WebSocket("ws://localhost:3001");
+         
+        renderChat = (message) => {
+          $('.messages').append('<div class="message"><strong>AWS: </strong>' +message +'</div>');
+          //console.log(message);
+        }
+      
+        socket.onmessage = function (event) {
+                console.log(event);
+                renderChat(event.data)
+          }
+        socket.onopen = function (event) {
+            console.log(event);
+
+            $('form').submit(function (e){
+          
+            e.preventDefault();
+
+            let message =  $('input[name=text]').val()
+
+            let obj = {
+                "message": message,
+                "action": "message"
+            }
+            //renderChat(obj);
+            
+            //document.getElementById('msg').value = "";
+
+            socket.send(JSON.stringify(obj));
+        });
+
+        };
+        
+    </script>
+  </body>
+</html>
