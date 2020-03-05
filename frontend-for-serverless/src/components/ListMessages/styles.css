@@ -1,0 +1,12 @@
+#box {
+    margin: auto auto 30px;
+    border-color: #0ABAB5;
+    border-width: 2px;
+}
+
+#messages {
+    height: 500px;
+    margin: 20px;
+    text-align: left; 
+    overflow: auto;
+}
