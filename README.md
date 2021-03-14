@@ -6,6 +6,12 @@ A Chat using Aws Websocket, lambda and a React UI
 
 Prova de conceito que consiste em fazer um sistema de mensageria (chat) através de um servidor serverless e um frontend em react.js;
 
+## Video
+
+<iframe width="420" height="315"
+src="https://youtu.be/dEyua8kKb5g">
+</iframe>
+
 ## Arquitetura
 
 <img src="./public/archicteture.png" alt="arquitetura" width="800px" />
