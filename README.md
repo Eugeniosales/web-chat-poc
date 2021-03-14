@@ -8,13 +8,13 @@ Prova de conceito que consiste em fazer um sistema de mensageria (chat) através
 
 ## Video
 
-<iframe width="420" height="315"
-src="https://youtu.be/dEyua8kKb5g">
-</iframe>
+<img src="./public/chat.gif" alt="chat" width="700px" />
+
+- Check the app: [chat poc video](https://youtu.be/dEyua8kKb5g)
 
 ## Arquitetura
 
-<img src="./public/archicteture.png" alt="arquitetura" width="800px" />
+<img src="./public/archicteture.png" alt="arquitetura" width="600px" />
 
 ## Tecnlogias Frontend
 
