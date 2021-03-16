@@ -12,10 +12,6 @@ Prova de conceito que consiste em fazer um sistema de mensageria (chat) através
 
 - Check the app: [chat poc video](https://youtu.be/dEyua8kKb5g)
 
-## Arquitetura
-
-<img src="./public/archicteture.png" alt="arquitetura" width="600px" />
-
 ## Tecnlogias Frontend
 
 **Linguagem**: Javascript (React.js)
