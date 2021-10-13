@@ -25,6 +25,10 @@ Prova de conceito que consiste em fazer um sistema de mensageria (chat) através
 
 <br>
 
+## Arquitetura
+
+<img src="./images/archtecture.png" width="800" />
+
 ## Execução do frontend
 
 - É necessário instalação do [Npm](https://docs.npmjs.com/cli/install) e [Node](https://nodejs.org/en/download/)
