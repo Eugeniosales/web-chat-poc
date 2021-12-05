@@ -21,7 +21,7 @@ Prova de conceito que consiste em fazer um sistema de mensageria (chat) através
 
 - Javascript (Node.js)
 - Serverless Framework
-- AWS services (Lambda, DynamoDB, S3, SQS, SNS)
+- AWS services (Lambda, Api Gateway e DynamoDB)
 
 <br>
 
