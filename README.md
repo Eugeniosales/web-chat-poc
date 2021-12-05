@@ -8,9 +8,9 @@ Prova de conceito que consiste em fazer um sistema de mensageria (chat) através
 
 ## Video
 
-<img src="./public/chat.gif" alt="chat" width="700px" />
+* Youtube video: https://youtu.be/dEyua8kKb5g
 
-- Check the app: [chat poc video](https://youtu.be/dEyua8kKb5g)
+<img src="./public/chat.gif" alt="chat" width="700px" />
 
 ## Tecnlogias Frontend
 
@@ -25,9 +25,6 @@ Prova de conceito que consiste em fazer um sistema de mensageria (chat) através
 
 <br>
 
-## Arquitetura
-
-<img src="./images/archtecture.png" width="800" />
 
 ## Execução do frontend
 
