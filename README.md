@@ -1,16 +1,28 @@
-# aws-serverless-chat
+<h1 align="center">
+AWS Serverless Chat
+</h1>
 
-A Chat using Aws Websocket, lambda and a React UI
+<p align="center">A Chat using Aws Websocket, lambda and a React UI</p>
 
-## Sobre
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/github/license/rocketseat/youtube-challenge-node-kafka?color=%237159c1&logo=mit" alt="License">
+  </a>
+</p>
 
-Prova de conceito que consiste em fazer um sistema de mensageria (chat) através de um servidor serverless e um frontend em react.js;
+<hr>
+
+## Participants
+
+| [<img src="https://avatars.githubusercontent.com/u/42457772?v=4" width="75px;"/>](https://github.com/Eugeniosales) |
+| :-----------------------------------------------------------------------------------------------------------------: | 
+|                                       [Eugenio Sales](https://github.com/Eugeniosales)                                        |           
 
 ## Video
 
-* Youtube video: https://youtu.be/dEyua8kKb5g
-
 <img src="./public/chat.gif" alt="chat" width="700px" />
+
+* Youtube video: https://youtu.be/dEyua8kKb5g
 
 ## Tecnlogias Frontend
 
